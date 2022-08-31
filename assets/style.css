@@ -53,7 +53,7 @@ input.search-bar {
     border: none;
     outline: none;
     border-radius: 24px;
-    padding: 0.5 em 1em;
+    padding: 0.4 em 1em;
     font-size: 120%;
     padding: 0.5em 1em;
  
@@ -63,12 +63,15 @@ input.search-bar {
 background-color: red;
 border-radius: 30px;
 
-  
+}
+h1.temp{
+    margin:0;
 }
 .weather .container{
     display: flex;
     justify-content: space-between;
-    background: #eaeaea;
+    color: #fff;
+    background: #0a51cc;
     border-radius: 30px;
     margin-top: 1em;
     width: 100%;
