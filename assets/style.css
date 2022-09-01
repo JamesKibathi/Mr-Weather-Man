@@ -36,6 +36,10 @@ body{
     font-weight: bold;
     line-height: 1.2;
 }
+
+.container h1{
+    line-height: 3;
+}
 .header img {
     max-width: 400px;
     border-radius: 5px;
@@ -45,9 +49,9 @@ body{
 
 .header .container{
     display: flex;
-   
     align-items: center;
     justify-content: space-between;
+ 
 }
 input.search-bar {
     border: none;
@@ -62,6 +66,7 @@ input.search-bar {
 
 background-color: red;
 border-radius: 30px;
+margin-left: 8px;
 
 }
 h1.temp{
@@ -84,7 +89,7 @@ h1.temp{
     color: #fff;
     background: #0a51cc;
     border-radius: 30px;
-    margin-top: 1em;
+    margin-top: 5em;
     width: 100%;
     max-width: 420px;
     padding: 2em;
