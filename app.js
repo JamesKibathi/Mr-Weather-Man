@@ -39,14 +39,17 @@ document.addEventListener("DOMContentLoaded",function(){
 
     document.querySelector(".wind").innerText="Wind speed: "+ speed + " km/h";
 
-
-
+    document.getElementById("search-form").reset();
 
 });
 
 
     }
+
+   
 })
+
+
 
 
 
