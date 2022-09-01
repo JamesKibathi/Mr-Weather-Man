@@ -16,12 +16,16 @@
                 <h1>Ask the Weather Man</h1>
                 <div class="search">
                      <!-- <input type="text" class="form-control" id="inputPassword2" placeholder="search for a city">-->
-                  <input type="text" class="search-bar" placeholder="search for a city">
+                 
+                     <form id="search-form" action="">
+                        <input type="text" class="search-bar" placeholder="search for a city">
                     
                     <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                     </form>
+                     
                 </div>
             </div>
-            
+        
             <img src="./assets/images/weather-home.png" class="main-img" alt="">
         </div>
     </header>
@@ -30,8 +34,10 @@
         <div class="display-area">
             <h2 class="city">Weather in Nairobi</h2>
             <h1 class="temp">32°C</h1>
-            <img src="" alt="" class="icon">
-            <div class="description">Clear Sky</div>
+            <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="" class="icon">
+            <div class="description">Broken Clouds</div>
+        </div>
             <div class="humidity">Humidity: 50%</div>
             <div class="wind">Wind speed: 6.2 km/hr</div>
         </div>

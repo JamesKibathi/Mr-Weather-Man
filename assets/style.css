@@ -66,6 +66,17 @@ border-radius: 30px;
 }
 h1.temp{
     margin:0;
+    margin-bottom: 0.5em;
+}
+
+.flex{
+    display:flex;
+    align-items: center;
+}
+
+.description {
+    text-transform: capitalize;
+    margin-left: 8px;
 }
 .weather .container{
     display: flex;
