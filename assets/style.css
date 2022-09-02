@@ -28,7 +28,8 @@ body{
 }
 
 .header {
-    background-color: #0151cc;
+   /* background-color: #0151cc;*/
+    background: #000000;
     color:#fff;
     min-height:400px;
 }
