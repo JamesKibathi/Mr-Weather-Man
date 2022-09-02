@@ -27,6 +27,42 @@ body{
     padding:0 30px;
 }
 
+.navbar {
+
+    background:#F67E2A;
+    color:#fff;
+    height:60px;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: black;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+
 .header {
    /* background-color: #0151cc;*/
     background: #000000;
