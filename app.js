@@ -26,8 +26,9 @@ document.addEventListener("DOMContentLoaded",function(){
         const {icon,description} = data.weather[0];
         const {temp, humidity} =data.main;
         const {speed}=data.wind;
+        const {country}=data.sys; // newly added to display country
 
-    document.querySelector(".city").innerText="Weather in " + name;
+    document.querySelector(".city").innerText="Weather in " + name + ", " + country;
 
     document.querySelector(".icon").src="http://openweathermap.org/img/wn/"+icon+"@2x.png"
 
