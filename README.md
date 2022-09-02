@@ -21,3 +21,7 @@ It's a web application that allows a user to search for a city of choice and the
 
 ## Support and Contact details
 Email me at - njenga.consulting@gmail.com
+
+### License
+*This web app is under the MIT License
+Copyright (c) 2022 James Njenga
