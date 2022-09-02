@@ -42,6 +42,25 @@ document.addEventListener("DOMContentLoaded",function(){
 
     document.getElementById("search-form").reset();
 
+})
+// New feature 
+.catch(error => {
+        
+    document.querySelector(".display-area").innerHTML=
+    
+    `Sorry it looks like there is no matches for your search:
+
+    <br><br>
+
+    <li>Check if ${citySearch} is a valid city name</li>
+  
+    <br><br>
+
+    Hit RESET on the navbar to try a new search
+    `
+
+  // console.log('Please enter a valid city', error)}
+    
 });
 
 
