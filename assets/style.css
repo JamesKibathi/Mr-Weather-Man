@@ -90,7 +90,8 @@ h1.temp{
     display: flex;
     justify-content: space-between;
     color: #fff;
-    background: #0a51cc;
+   /* background: #0a51cc;*/
+   background: #000000;
     border-radius: 30px;
     margin-top: 5em;
     width: 100%;
